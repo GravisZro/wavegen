@@ -44,6 +44,7 @@ namespace wavegen
       }
     }
 
+  protected:
     virtual void recalculateStep(void) = 0;
 
   protected:

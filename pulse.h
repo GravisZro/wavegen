@@ -13,6 +13,8 @@ namespace wavegen
     float128_t sample(void) override;
 
     void setDutyCycle(float128_t duty_cycle);
+
+  private:
     void recalculateStep(void) override;
   private:
     float128_t m_duty_cycle;

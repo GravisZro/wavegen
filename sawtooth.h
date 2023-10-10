@@ -12,6 +12,7 @@ namespace wavegen
 
     float128_t sample(void) override;
 
+  private:
     void recalculateStep(void) override;
   private:
     float128_t m_currentX;
